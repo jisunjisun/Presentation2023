@@ -1,0 +1,13 @@
+{
+  "id" : "https://jisunjisun.github.io/Presentation2023/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in jisunjisun/Presentation2023 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jisunjisun.github.io/Presentation2023/manifests/manifest2.json",
+    "label" : "Ji-sun Kim's Manifest"
+  } ]
+}
