@@ -1,0 +1,91 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://jisunjisun.github.io/Presentation2023/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Ji-sun Kim's Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is korean newspaper articles from the 1930s that mentions Whashin Department Store (by Ji-sun Kim)",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copyright © The Chosun Ilbo & Chosun.com, Copyright © 2023 by National Library of Korea",
+  "sequences" : [ {
+    "@id" : "http://00362b76-19d3-4daf-9d35-46e51c415382",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a6a60e50-7302-4fcb-8049-0349c6e147f8",
+      "@type" : "sc:Canvas",
+      "label" : "chosunilbo19350128",
+      "height" : 1467,
+      "width" : 1100,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d83e4033-c92d-44db-83ed-7e67f3dc8155",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/chosun19350128/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/chosun19350128",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1467,
+          "width" : 1100
+        },
+        "on" : "http://a6a60e50-7302-4fcb-8049-0349c6e147f8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5",
+      "@type" : "sc:Canvas",
+      "label" : "maeilsinbo19371009",
+      "height" : 6428,
+      "width" : 4719,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7b35e492-4dfd-48a9-a1f5-93a498f6174a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/maeil19371009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/maeil19371009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 6428,
+          "width" : 4719
+        },
+        "on" : "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book2/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Chosun Ilbo 19350128",
+    "canvases" : [ "http://a6a60e50-7302-4fcb-8049-0349c6e147f8" ]
+  }, {
+    "@id" : "http://example.org/iiif/book2/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Maeil Sinbo 19371009",
+    "canvases" : [ "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5" ]
+  } ]
+}
