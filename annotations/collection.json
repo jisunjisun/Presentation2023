@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://jisunjisun.github.io/Presentation2023/annotations/da9cee57ac78854bdbf49ec91f74e1c6.json" ],
+  "@id" : "https://jisunjisun.github.io/Presentation2023/annotations/collection.json",
+  "label" : "All annotations loaded in jisunjisun/Presentation2023 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
