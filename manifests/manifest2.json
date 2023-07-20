@@ -3,6 +3,11 @@
   "@id" : "https://jisunjisun.github.io/Presentation2023/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Ji-sun Kim's Manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1240244679/104730364016006402965/4d83510d5d645ce2ae68c302dc85125f/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is korean newspaper articles from the 1930s that mentions Whashin Department Store (by Ji-sun Kim)",
@@ -67,6 +72,11 @@
           "width" : 4719
         },
         "on" : "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisunjisun.github.io/Presentation2023/annotations/da9cee57ac78854bdbf49ec91f74e1c6.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     } ]
