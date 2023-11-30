@@ -98,4 +98,56 @@
     "label" : "Maeil Sinbo 19371009",
     "canvases" : [ "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5" ]
   } ]
-}
+},{
+      "@id" : "http://bd80c76d-9eee-4641-9d7a-86209d5a2644",
+      "@type" : "sc:Canvas",
+      "label" : "[Newspaper]19340804 Chosun Chungang 3p",
+      "height" : 4700,
+      "width" : 3531,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://344bd257-385e-4105-8717-7097ddb53edd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/chosunchungang19340804_3_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/chosunchungang19340804_3_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4700,
+          "width" : 3531
+        },
+        "on" : "http://bd80c76d-9eee-4641-9d7a-86209d5a2644"
+      } ],
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Library of Korea All Rights Reserved."
+      }, {
+        "label" : "RelatedURL",
+        "value" : "https://lod.nl.go.kr/page/CNTS-00095803117"
+      }, {
+        "label" : "Page",
+        "value" : "3"
+      }, {
+        "label" : "PublishDate",
+        "value" : "19340804"
+      }, {
+        "label" : "KoName",
+        "value" : "조선중앙일보"
+      }, {
+        "label" : "ChiName",
+        "value" : "朝鮮中央日報"
+      }, {
+        "label" : "Type",
+        "value" : "Newspaper"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisunjisun.github.io/ProjectDemo23/annotations/e49adc89857621c2cb56c33f45860205.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }
