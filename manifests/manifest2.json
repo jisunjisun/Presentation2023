@@ -80,25 +80,7 @@
       } ],
       "related" : ""
     } ]
-  } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book2/range/intro" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Chosun Ilbo 19350128",
-    "canvases" : [ "http://a6a60e50-7302-4fcb-8049-0349c6e147f8" ]
-  }, {
-    "@id" : "http://example.org/iiif/book2/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Maeil Sinbo 19371009",
-    "canvases" : [ "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5" ]
-  } ]
-},{
+  }, ,{
       "@id" : "http://bd80c76d-9eee-4641-9d7a-86209d5a2644",
       "@type" : "sc:Canvas",
       "label" : "[Newspaper]19340804 Chosun Chungang 3p",
@@ -150,4 +132,28 @@
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ]
-    }
+    }]
+  {],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book2/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Chosun Ilbo 19350128",
+    "canvases" : [ "http://a6a60e50-7302-4fcb-8049-0349c6e147f8" ]
+  }, {
+    "@id" : "http://example.org/iiif/book2/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Maeil Sinbo 19371009",
+    "canvases" : [ "http://4ff19607-7ee7-4169-86fc-4ea14041bdb5" ]
+  }, {
+    "@id" : "http://example.org/iiif/book2/range/intro",
+    "@type" : "sc:Range",
+    "label" : "2. [Newspaper]19340804 Chosun Chungang 3p",
+    "canvases" : [ "http://bd80c76d-9eee-4641-9d7a-86209d5a2644" ]
+  }]
+}
