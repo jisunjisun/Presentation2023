@@ -60,12 +60,12 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/maeil19371009/full/full/0/default.jpg",
+          "@id" : "https://iiif.archivelab.org/iiif/maeil19371009_202308/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/maeil19371009",
+            "@id" : "https://iiif.archivelab.org/iiif/maeil19371009_202308",
             "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
           },
           "height" : 6428,
