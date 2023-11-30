@@ -34,12 +34,12 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/chosun19350128/full/full/0/default.jpg",
+          "@id" : "https://iiif.archivelab.org/iiif/chosunchungang19340804_3_202308/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/chosun19350128",
+            "@id" : "https://iiif.archivelab.org/iiif/chosunchungang19340804_3_202308",
             "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
           },
           "height" : 1467,
